@@ -1,0 +1,25 @@
+{
+  "document": {
+    "title": "Comprehensive Market Survey Analysis on Ambient Listening AI-Enabled Medical Encounter Note Generation Platforms",
+    "description": "We are seeking a comprehensive market survey analysis on the current state of Ambient Listening AI-enabled medical encounter note generation platforms. The objective of this analysis is to understand the broad industry landscape, key players, and technological advancements. This information will guide our strategic decisions and investments in AI-enabled medical documentation solutions."
+  },
+  "output": {
+    "format": "brief",
+    "tone": "business",
+    "filename": "ambient_listening_analysis.md"
+  },
+  "author": {
+    "profile": "An industry expert with 20 years of experience in healthcare technology, having worked in leadership roles at major healthcare providers and technology companies."
+  },
+  "api_config": {
+    "delay_between_calls": 20,
+    "openai": {
+      "model": "gpt-4o",
+      "max_tokens": 4000
+    },
+    "anthropic": {
+      "model": "claude-3-5-sonnet-20240620",
+      "max_tokens": 4000
+    }
+  }
+}
